@@ -35,3 +35,5 @@ RUN rm -fr luvit-$VERSION.tar.gz
 
 WORKDIR /
 CMD ["luvit"]
+
+# Usage: docker run --rm -it $IMAGE

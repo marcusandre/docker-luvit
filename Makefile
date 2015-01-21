@@ -6,6 +6,6 @@ build:
 	$(DOCKER) build -t $(TAG) .
 
 run:
-	$(DOCKER) run -i -t $(TAG)
+	$(DOCKER) run --rm -it $(TAG)
 
 .PHONY: build run
