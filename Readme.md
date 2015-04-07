@@ -1,5 +1,5 @@
 
-# Luvit 0.8.2
+# Luvit 2.0.4
 
   Run your [Luvit](http://luvit.io/) code directly inside a [Docker](http://docker.io/) container.
   

@@ -1,8 +1,6 @@
 
 #
-# Luvit v0.8.2
-#
-# VERSION 0.0.1
+# Luvit v2.0.4
 #
 
 FROM ubuntu:14.04
@@ -12,7 +10,7 @@ MAINTAINER Marcus André <hello@marcusandre.de>
 # Pkg
 #
 
-ENV VERSION 0.8.2
+ENV VERSION 2.0.4
 
 #
 # System
@@ -26,14 +24,13 @@ RUN apt-get install -qqy --force-yes build-essential curl
 #
 
 WORKDIR /tmp
-RUN curl -L# http://luvit.io/dist/$VERSION/luvit-$VERSION.tar.gz | tar xz
+RUN curl -L# https://github.com/luvit/luvit/archive/$VERSION.tar.gz | tar xz
 RUN cd luvit-$VERSION && make && make install
 RUN rm -fr luvit-$VERSION.tar.gz
+
 #
 # Entry
 #
 
 WORKDIR /
 CMD ["luvit"]
-
-# Usage: docker run --rm -it $IMAGE
