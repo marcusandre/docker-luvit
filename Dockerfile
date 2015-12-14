@@ -1,6 +1,6 @@
 
 #
-# Luvit v2.0.4
+# Luvit v2.7.1
 #
 
 FROM ubuntu:14.04
@@ -10,7 +10,7 @@ MAINTAINER Marcus André <hello@marcusandre.de>
 # Pkg
 #
 
-ENV VERSION 2.0.4
+ENV VERSION 2.7.1
 
 #
 # System
