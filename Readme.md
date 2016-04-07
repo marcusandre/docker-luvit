@@ -1,9 +1,9 @@
 
-# Luvit 2.0.4
+# Luvit 2.9.1
 
   Run your [Luvit](http://luvit.io/) code directly inside a [Docker](http://docker.io/) container.
-  
-  ![Luvit demonstration](http://cl.ly/image/1j3a0B0I2x1D/docker-luvit.gif)
+
+  ![docker-badge](http://dockeri.co/image/marcusandre/luvit)
 
 ## Usage
 
